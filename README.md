@@ -61,7 +61,7 @@ SELECT COUNT (phone) AS total_phones
 FROM CLIENT
 ```
 
-### Mostrar el total de nombres
+### Mostrar el total de phones
 Para mostrar todos los nombres usamos la funcion **COUNT ()** pasandole como parametro el campo, en este caso *-phone-*
 
 <img src="./capturas/countphones.png"/>
