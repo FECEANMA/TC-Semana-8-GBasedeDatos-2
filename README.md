@@ -90,7 +90,7 @@ Para mostrar todos los nombres usamos la funcion **COUNT ()** pasandole como par
 
 ### Count
 ```
-SELECT COUNT (phone) AS total_phones, COUNT (fullname) AS total_names, COUNT (*) AS total
+SELECT COUNT (DISTINCT city) AS total_citys
 FROM CLIENT
 ```
 
