@@ -13,8 +13,6 @@ city VARCHAR(50),
 credit_limit DECIMAL(7,2)
 );
 ```
-<img src="./capturas/createtable.png"/>
-
 ### Inserccion de datos
 
 ```
@@ -43,6 +41,8 @@ VALUES
 ('3456789012', 'Emily Davis', NULL, 'PREMIUM', 'Houston', 2500.00),
 ('9012345678', 'David Brown', NULL, 'BASIC', 'Phoenix', 1200.00);
 ```
+<img src="./capturas/createtable.png"/>
+
 ### Consulta de datos
 ### Count
 ```
