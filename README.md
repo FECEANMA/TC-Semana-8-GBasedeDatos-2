@@ -52,3 +52,5 @@ FROM CLIENT
 
 ### Mostrar el total de nombres
 Para mostrar todos los nombres usamos la funcion **COUNT ()** pasandole como parametro el campo, en este caso *-fullname-*
+
+<img src="./capturas/countnames.png"/>
