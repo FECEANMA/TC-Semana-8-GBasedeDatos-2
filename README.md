@@ -87,3 +87,14 @@ FROM CLIENT
 Para mostrar todos los nombres usamos la funcion **COUNT ()** pasandole como parametro el campo, en este caso *-fullname-*, *-phone-* y *
 
 <img src="./capturas/countnames,phonesytotal.png"/>
+
+### Count
+```
+SELECT COUNT (phone) AS total_phones, COUNT (fullname) AS total_names, COUNT (*) AS total
+FROM CLIENT
+```
+
+### Mostrar el total de citys con DISTINCT
+Para mostrar todos los citys con distinct usamos la funcion **COUNT ()** pasandole como parametro el campo, en este caso *-city-*
+
+<img src="./capturas/countdistinctcitys.png"/>
