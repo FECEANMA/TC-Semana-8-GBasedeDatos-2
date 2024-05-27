@@ -77,3 +77,13 @@ Para mostrar todos los nombres usamos la funcion **COUNT ()** pasandole como par
 
 <img src="./capturas/countnamesyphones.png"/>
 
+### Count
+```
+SELECT COUNT (phone) AS total_phones, COUNT (fullname) AS total_names, COUNT (*) AS total
+FROM CLIENT
+```
+
+### Mostrar el total de names, phones y total
+Para mostrar todos los nombres usamos la funcion **COUNT ()** pasandole como parametro el campo, en este caso *-fullname-*, *-phone-* y *
+
+<img src="./capturas/countnames,phonesytotal.png"/>
