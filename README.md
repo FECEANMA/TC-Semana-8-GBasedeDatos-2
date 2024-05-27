@@ -84,7 +84,7 @@ FROM CLIENT
 ```
 
 ### Mostrar el total de names, phones y total
-Para mostrar todos los nombres, phones y total usamos la funcion **COUNT ()** pasandole como parametro el campo, en este caso *fullname*, *phone* y *total*
+Para mostrar todos los nombres, phones y total usamos la funcion **COUNT ()** pasandole como parametro el campo, en este caso *fullname*, *phone* y *total*(*)
 
 <img src="./capturas/countnames,phonesytotal.png"/>
 
@@ -95,6 +95,6 @@ FROM CLIENT
 ```
 
 ### Mostrar el total de citys con DISTINCT
-Para mostrar todos los citys con distinct usamos la funcion **COUNT ()** pasandole como parametro el campo, en este caso *city*
+Para mostrar todos los citys con distinct usamos la funcion **COUNT ()** pasandole como parametro el campo, en este caso *city* con **'DISTINCT'**
 
 <img src="./capturas/countdistinctcitys.png"/>
