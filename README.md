@@ -13,6 +13,7 @@ city VARCHAR(50),
 credit_limit DECIMAL(7,2)
 );
 ```
+<img src="./capturas/createtable.png"/>
 
 ### Inserccion de datos
 
